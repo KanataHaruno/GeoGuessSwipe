@@ -40,6 +40,7 @@ public class GeoObjectAdapter extends RecyclerView.Adapter<GeoObjectViewHolder> 
         holder.isEuropean = geoObject.getmIsEuropean();
     }
 
+    @Override
     public int getItemCount(){
         // Shows how many items are in the list
         return listGeoObject.size();

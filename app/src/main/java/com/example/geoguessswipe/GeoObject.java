@@ -2,8 +2,8 @@ package com.example.geoguessswipe;
 
 public class GeoObject {
 
-    private int mGeoImageName;
-    private boolean mIsEuropean;
+    public int mGeoImageName;
+    public boolean mIsEuropean;
 
     public GeoObject(int mGeoImageName, boolean mIsEuropean) {
         this.mGeoImageName = mGeoImageName;
